@@ -1,0 +1,41 @@
+.main-content {
+    padding: 20px;
+    margin-left: 250px; /* Adjust based on the width of the sidebar */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vendor-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.vendor-table th,
+.vendor-table td {
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+}
+
+.vendor-table th {
+    background-color: #e0e0e0;
+}
+
+.active-status {
+    background-color: #4CAF50;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+.inactive-status {
+    background-color: #FFC107;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+

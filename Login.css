@@ -1,0 +1,46 @@
+/* General styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a2d69;  /* Dark blue background */
+    /*background-image: url('path_to_your_image.jpg'); Replace with the path to your background image if needed */
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    width: 120px;  /* Adjust based on your logo size */
+    margin-bottom: 20px;
+}
+
+/* Typography styles */
+.container h1 {
+    color: #fff;  /* White color for text */
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.container h2 {
+    color: #fff;  /* White color for text */
+    margin-bottom: 40px;  /* Adjust based on spacing needs */
+    font-weight: 400;
+}
+
+/* Button styles */
+.container .MuiButton-root {
+    width: 200px;  /* Adjust based on your button size */
+    padding: 15px 0;  
+    margin-top: 30px;
+    background-color: #44c767;  /* Green color for the button */
+    font-size: 16px;  /* Adjust based on your button text size */
+    font-weight: 500;  /* Adjust based on your button text weight */
+    color: #fff;  /* White color for the button text */
+    border-radius: 30px;  /* Rounded corners for the button */
+}
+
+.container .MuiButton-root:hover {
+    background-color: #37a655;  /* Darker green color for button on hover */
+}

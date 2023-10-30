@@ -1,0 +1,21 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #1E2A38;  /* Dark blue from the image */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.navbar-logo {
+    width: 150px;  /* Adjust this based on your logo's size */
+    height: 40px;
+}
+
+.navbar-welcome {
+    color: #ffffff; /* White text color for the welcome message */
+    font-size: 16px;
+    font-weight: 500;
+}
